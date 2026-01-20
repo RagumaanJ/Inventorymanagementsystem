@@ -1,8 +1,14 @@
 import InventoryPage from "./components/InventoryPage";
+import Navbar from"./components/Navbar";
 import "./App.css";
+
+
 
 function App() {
   return (
+      <>
+      <Navbar/>
+
     <div
       className="d-flex justify-content-center"
       style={{ backgroundColor: "#f5f7fa", minHeight: "70vh" }}
@@ -27,6 +33,7 @@ function App() {
         <InventoryPage />
       </div>
     </div>
+    </>
   );
 }
 
